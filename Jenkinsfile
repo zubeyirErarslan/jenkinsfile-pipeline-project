@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "zbyr devops engineer"
+                echo "zbyr devops engineer..."
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
